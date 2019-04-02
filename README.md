@@ -3,6 +3,8 @@ This repository is a compilation of various scripts written/obtained for use wit
 
 ## Clicker Games
 
+I believe I wrote these scripts on my own, with the assistance of forums/tutorials/irc/etc  - they weren't copy/pasted.
+
 Automatic mouse clicker script with three different speeds.  This sometimes works, sometimes doesn't.  I don't know why it doesn't.
 
 *USE AT YOUR OWN RISK*
@@ -24,11 +26,11 @@ Shift - Stop
 
 ## Make it Rain
 
-TBD
+Automatic clicker for the game Make it Rain.  Don't use this.
 
 ## Rise of Nations
 
-TBD
+Various scripts to assist with the achievements in Rise of Nations.  These were initially copied from Trueachievements (can't find source right now for some reason), and modified by me.
 
 ### Building
 
@@ -38,4 +40,4 @@ TBD
 
 ## Taptiles
 
-TBD
+Copy/pasted from a forum.
