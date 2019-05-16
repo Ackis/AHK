@@ -26,7 +26,7 @@ Loop{
 	Sleep, 2000
 
 	; Select Technology
-	MouseClick, left, 463, 997
+	MouseClick, left, 463, 1030
 	Sleep, 2000
 	
 	; Select First Tech
