@@ -19,6 +19,7 @@ q::
 Loop{
 
 	; Alliance Tech Donation
+	LoopSection := "Alliance Tech Donation"
 
 	; Select Alliance
 	MouseClick, left, 48, 984
@@ -45,6 +46,7 @@ Loop{
 	Sleep, 2000
 
 	; Troop Training
+	LoopSection := "Troop Training"
 
 	; Select Military
 	MouseClick, left, 1044, 547
@@ -83,6 +85,8 @@ Loop{
 	; Complete Recruitment
 	MouseClick, left, 1044, 547
 	Sleep, 2000
+
+	LoopCount = LoopCount + 1
 }
 
 Escape::ExitApp
