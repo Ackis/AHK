@@ -14,6 +14,9 @@ RecruitTimeInMinutes := 29
 
 q::
 Loop{
+
+	; Alliance Tech Donation
+
 	; Select Alliance
 	MouseClick, left, 48, 984
 	Sleep, 2000
@@ -37,6 +40,8 @@ Loop{
 	; Select Back
 	MouseClick, left, 48, 82
 	Sleep, 2000
+
+	; Troop Training
 
 	; Select Military
 	MouseClick, left, 1044, 547
