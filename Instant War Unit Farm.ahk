@@ -1,6 +1,6 @@
 ; Instant War Unit Build Script - Written by Shadow Kisuragi
 
-; Press r to start the script.
+; Press q to start the script.
 ; Press ESC to exit the script.
 ; Modify the script variables QueueSize and RecruitTimeInMinutes to meet your needs.
 
@@ -11,6 +11,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 QueueSize := 4
 RecruitTimeInMinutes := 29
+
+LoopCount := 0
+LoopSection := "Waiting"
 
 q::
 Loop{
