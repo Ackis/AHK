@@ -14,6 +14,30 @@ RecruitTimeInMinutes := 29
 
 q::
 Loop{
+	; Select Alliance
+    MouseClick, left, 48, 984
+    Sleep, 2000
+
+    ; Select Technology
+    MouseClick, left, 463, 997
+    Sleep, 2000
+	
+	; Select First Tech
+	MouseClick, left, 329, 327
+	Sleep, 2000
+
+    ; Select Contribute
+    MouseClick, left, 427, 519
+    Sleep, 2000
+	
+	; Select Back
+    MouseClick, left, 48, 82
+    Sleep, 2000
+	
+	; Select Back
+	MouseClick, left, 48, 82
+    Sleep, 2000
+
     ; Select Military
     MouseClick, left, 1044, 547
     Sleep, 2000
