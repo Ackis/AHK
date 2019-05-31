@@ -9,8 +9,8 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-QueueSize := 4
-RecruitTimeInMinutes := 29
+QueueSize := 3
+RecruitTimeInMinutes := 22
 
 LoopCount := 0
 LoopSection := "Waiting"
@@ -19,31 +19,31 @@ q::
 Loop{
 
 	; Alliance Tech Donation
-	LoopSection := "Alliance Tech Donation"
+	;LoopSection := "Alliance Tech Donation"
 
 	; Select Alliance
-	MouseClick, left, 48, 984
-	Sleep, 2000
+	;MouseClick, left, 48, 984
+	;Sleep, 2000
 
 	; Select Technology
-	MouseClick, left, 463, 1030
-	Sleep, 2000
+	;MouseClick, left, 463, 1030
+	;Sleep, 2000
 	
 	; Select First Tech
-	MouseClick, left, 329, 327
-	Sleep, 2000
+	;MouseClick, left, 329, 327
+	;Sleep, 2000
 
 	; Select Contribute
-	MouseClick, left, 427, 519
-	Sleep, 2000
+	;MouseClick, left, 427, 519
+	;Sleep, 2000
 
 	; Select Back
-	MouseClick, left, 48, 82
-	Sleep, 2000
+	;MouseClick, left, 48, 82
+	;Sleep, 2000
 
 	; Select Back
-	MouseClick, left, 48, 82
-	Sleep, 2000
+	;MouseClick, left, 48, 82
+	;Sleep, 2000
 
 	; Troop Training
 	LoopSection := "Troop Training"
@@ -55,13 +55,27 @@ Loop{
 	; Select Recruit
 	MouseClick, left, 835, 724
 	Sleep, 5000
-	
+
+	; Select Infantry
+	; Do nothing - Infantry is already selected
+	; Select UGV
+	MouseClick, left, 276, 170
 	; Select Armored
-	MouseClick, left, 332, 170
+	;MouseClick, left, 332, 170
+	; Select LSV
+	;MouseClick, left, 463, 170
+	; Select Artillery
+	;MouseClick, left, 444, 170
 	Sleep, 2000
 
-	; Select Tanks (Tier I Troops)
+	; Select Tier I Troops
 	MouseClick, left, 208, 371
+	; Select Tier II Troops
+	;MouseClick, left, 332, 170
+	; Select Tier III Troops
+	;MouseClick, left, 332, 170
+	; Select Tier IV Troops
+	;MouseClick, left, 332, 170
 	Sleep, 2000
 
 	Loop, %QueueSize%
