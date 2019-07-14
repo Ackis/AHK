@@ -14,6 +14,7 @@ return
 
 ; Per IRC use SetTImer (http://ahkscript.org/docs/commands/SetTimer.htm)
 ; with settimer all you need is 3 hotkeys each with a settimer, label, % (running = !running) ? varying time (0 or 10 or 100) : "Off"
+
 F8::
 	keepRunning:=!keepRunning
 	$~lbutton::
@@ -37,23 +38,21 @@ return
 F11::
 	keepRunning:=!keepRunning
 	SetMouseDelay 10
-
 	while (keepRunning=1)
 	{
 		; totalClicks++
 		MouseClick
 	}
-	
 return
 
 F12::
 	keepRunning:=!keepRunning
 	SetMouseDelay 100
-
 	while (keepRunning=1)
 	{
 		; totalClicks++
 		MouseClick
 	}
-	
 return
+
+Esc::ExitApp

@@ -59,11 +59,11 @@ Loop{
 	; Select Infantry
 	; Do nothing - Infantry is already selected
 	; Select UGV
-	MouseClick, left, 276, 170
+	;MouseClick, left, 276, 170
 	; Select Armored
 	;MouseClick, left, 332, 170
 	; Select LSV
-	;MouseClick, left, 463, 170
+	MouseClick, left, 463, 170
 	; Select Artillery
 	;MouseClick, left, 444, 170
 	Sleep, 2000
