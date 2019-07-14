@@ -41,7 +41,7 @@ Loop {
 	MouseClick, Left, 700, 800
 	Sleep, 2000
 	MouseClick, Left, 975, 800
-	Sleep, 35000
+	Sleep, 120000
 
 	; Start new game
 	MouseClick, Left, 400, 775
