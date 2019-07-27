@@ -24,9 +24,25 @@ Dumbed down version of the above script.
 F12 - Start
 Shift - Stop
 
+## Gimmee Five
+
+Script idea taken from True Achievements - automates playing of first five or six rounds of playing. Useful for farming Kudos.
+
+## Instant War
+
+Scripts to automate unit building in Instant War, developed by Shadow Kisuragi, modified by me.
+
 ## Make it Rain
 
 Automatic clicker for the game Make it Rain.  Don't use this.
+
+### Make it Rain (WP)
+
+Scripts for the Windows Phone version of the game.
+
+## Minesweeper
+
+Creates a new game over and over again for Minesweeper.
 
 ## Rise of Nations
 

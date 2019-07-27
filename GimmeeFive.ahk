@@ -14,6 +14,10 @@ Loop {
 	Sleep, 4000
 	MouseClick, Left, 1575, 875
 	Sleep, 4000
+	MouseClick, Left, 1575, 875
+	Sleep, 4000
+	MouseClick, Left, 1575, 875
+	Sleep, 4000
 
 	; Throw out wrong answers
 	MouseClick, Left, 1200, 875
