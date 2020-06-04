@@ -1,4 +1,6 @@
 ; Final Fantasy 3 Windows Phone
+; Auto Grind Script
+; v0.1
 
 ; Press q to start the script.
 ; Press ESC to exit the script.
