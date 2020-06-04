@@ -1,6 +1,6 @@
 ; Final Fantasy 3 Windows Phone
 ; Auto Grind Script
-; v0.1
+; v0.2
 
 ; Press q to start the script.
 ; Press ESC to exit the script.
@@ -17,11 +17,29 @@ PartySize := 4
 q::
 Loop{
 	; World map find a target phase
-	MouseClickDrag, left, 1500, 1100, 1500, 900, 100
-	Sleep, 2000
-	MouseClickDrag, left, 1500, 900, 1500, 1100, 100
-	Sleep, 2000
-
+	MouseClick, Left, 1500, 900, ,100, D
+	Sleep, 1000
+	MouseMove, 1500, 700, 100
+	Sleep, 1000
+	MouseMove, 1500, 1100, 100
+	Sleep, 1000
+	MouseMove, 1500, 700, 100
+	Sleep, 1000
+	MouseMove, 1500, 1100, 100
+	Sleep, 1000
+	MouseMove, 1500, 700, 100
+	Sleep, 1000
+	MouseMove, 1500, 1100, 100
+	Sleep, 1000
+	MouseMove, 1500, 700, 100
+	Sleep, 1000
+	MouseMove, 1500, 1100, 100
+	Sleep, 1000
+	MouseMove, 1500, 700, 100
+	Sleep, 1000
+	MouseMove, 1500, 1100, 100
+	Sleep, 1000
+	MouseClick, Left, 1500, 900, ,100, U
 	; Wait until we're in battle
 	Sleep, 15000
 
