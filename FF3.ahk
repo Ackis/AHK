@@ -17,29 +17,29 @@ PartySize := 4
 q::
 Loop{
 	; World map find a target phase
-	MouseClick, Left, 1500, 900, ,100, D
+	MouseClick, Left, 2000, 900, ,100, D
 	Sleep, 1000
-	MouseMove, 1500, 700, 100
+	MouseMove, 2000, 700, 100
 	Sleep, 1000
-	MouseMove, 1500, 1100, 100
+	MouseMove, 2000, 1100, 100
 	Sleep, 1000
-	MouseMove, 1500, 700, 100
+	MouseMove, 2000, 700, 100
 	Sleep, 1000
-	MouseMove, 1500, 1100, 100
+	MouseMove, 2000, 1100, 100
 	Sleep, 1000
-	MouseMove, 1500, 700, 100
+	MouseMove, 2000, 700, 100
 	Sleep, 1000
-	MouseMove, 1500, 1100, 100
+	MouseMove, 2000, 1100, 100
 	Sleep, 1000
-	MouseMove, 1500, 700, 100
+	MouseMove, 2000, 700, 100
 	Sleep, 1000
-	MouseMove, 1500, 1100, 100
+	MouseMove, 2000, 1100, 100
 	Sleep, 1000
-	MouseMove, 1500, 700, 100
+	MouseMove, 2000, 700, 100
 	Sleep, 1000
-	MouseMove, 1500, 1100, 100
+	MouseMove, 2000, 1100, 100
 	Sleep, 1000
-	MouseClick, Left, 1500, 900, ,100, U
+	MouseClick, Left, 2000, 900, ,100, U
 	; Wait until we're in battle
 	Sleep, 15000
 
