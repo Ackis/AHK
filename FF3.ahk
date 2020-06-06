@@ -19,26 +19,16 @@ Loop{
 	; World map find a target phase
 	MouseClick, Left, 2000, 900, ,100, D
 	Sleep, 1000
-	MouseMove, 2000, 700, 100
-	Sleep, 1000
-	MouseMove, 2000, 1100, 100
-	Sleep, 1000
-	MouseMove, 2000, 700, 100
-	Sleep, 1000
-	MouseMove, 2000, 1100, 100
-	Sleep, 1000
-	MouseMove, 2000, 700, 100
-	Sleep, 1000
-	MouseMove, 2000, 1100, 100
-	Sleep, 1000
-	MouseMove, 2000, 700, 100
-	Sleep, 1000
-	MouseMove, 2000, 1100, 100
-	Sleep, 1000
-	MouseMove, 2000, 700, 100
-	Sleep, 1000
-	MouseMove, 2000, 1100, 100
-	Sleep, 1000
+	
+	Loop, 10
+	{
+		; Move down
+		MouseMove, 2000, 700, 100
+		Sleep, 1000
+		; Move up
+		MouseMove, 2000, 1100, 100
+		Sleep, 1000
+	}
 	MouseClick, Left, 2000, 900, ,100, U
 	; Wait until we're in battle
 	Sleep, 15000
