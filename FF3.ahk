@@ -56,6 +56,7 @@ Loop{
 		; Click Target
 		MouseClick, left, 690, 1440
 	}
+
 	; Wait for attack to happen
 	Sleep, 15000
 
@@ -63,12 +64,13 @@ Loop{
 	Sleep, 10000
 
 	; Loot Phase
+
 	; Max number of clicks should be 10 - item, gil, a level up/job level up for each character
 	Loop, 10
 	{
 		; Click anywhere
 		MouseClick, left, 1875, 1150
-		Sleep, 1000
+		Sleep, 2000
 	}
 
 	Sleep, 15000
