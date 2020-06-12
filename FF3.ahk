@@ -61,7 +61,7 @@ Loop{
 	{
 		; Click Attack
 		MouseClick, left, 690, 1440
-
+		TrayTip, MouseClick Left 690 1440, 1
 		Sleep, 1000
 		; Click Target
 		MouseClick, left, 690, 1440
@@ -71,12 +71,14 @@ Loop{
 	{
 		; Click guard
 		MouseClick, left, 700, 1980
+		TrayTip, MouseClick Left 700 1980, 1
 		Sleep, 1000
 	}
 
 	; Wait for attack to happen
 	TrayTip, Attack Starting, Wait for attack to happen, 15
 	Sleep, 15000
+
 	TrayTip, Win Animation, Wait for win animation, 10
 	; Wait for win animation
 	Sleep, 10000
