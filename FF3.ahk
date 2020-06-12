@@ -16,6 +16,13 @@ PartySize := 4
 
 q::
 Loop{
+	Loop, 10
+	{
+		; Click anywhere
+		MouseClick, left, 1875, 1150
+		Sleep, 2000
+	}
+	
 	; World map find a target phase
 	MouseClick, Left, 2000, 900, ,100, D
 	Sleep, 1000
@@ -34,6 +41,7 @@ Loop{
 	Sleep, 15000
 
 	; Guard Phase
+	TrayTip, GuardPhase, Entering Guard phase, 2000
 	Loop, %FightRounds%
 	{
 		Loop, %PartySize%
@@ -43,11 +51,13 @@ Loop{
 			Sleep, 1000
 		}
 		; Wait for NPC attacks to happen
+		TrayTip, NPC Attack(s) Starting, Wait for NPC(s) to attack, 15
 		Sleep, 15000
 	}
 
 	; Attack Phase
-	Loop, %PartySize%
+	TrayTip, AttackPhase, Entering Attack phase, 2000
+	Loop, 2
 	{
 		; Click Attack
 		MouseClick, left, 690, 1440
@@ -57,9 +67,17 @@ Loop{
 		MouseClick, left, 690, 1440
 	}
 
-	; Wait for attack to happen
-	Sleep, 15000
+	Loop, 2
+	{
+		; Click guard
+		MouseClick, left, 700, 1980
+		Sleep, 1000
+	}
 
+	; Wait for attack to happen
+	TrayTip, Attack Starting, Wait for attack to happen, 15
+	Sleep, 15000
+	TrayTip, Win Animation, Wait for win animation, 10
 	; Wait for win animation
 	Sleep, 10000
 
