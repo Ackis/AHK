@@ -38,7 +38,7 @@ Loop{
 	}
 	MouseClick, Left, 2000, 900, ,100, U
 	; Wait until we're in battle
-	Sleep, 15000
+	Sleep, 10000
 
 	; Guard Phase
 	TrayTip, GuardPhase, Entering Guard phase, 2000
