@@ -26,7 +26,7 @@ Loop{
 	; World map find a target phase
 	MouseClick, Left, 2000, 900, ,100, D
 	Sleep, 1000
-	
+
 	Loop, 10
 	{
 		; Move down
