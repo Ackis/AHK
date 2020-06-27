@@ -11,7 +11,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 LoopCount := 0
-FightRounds := 3
+FightRounds := 4
 PartySize := 4
 
 q::
