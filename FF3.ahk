@@ -61,7 +61,6 @@ Loop{
 	{
 		; Click Attack
 		MouseClick, left, 690, 1440
-		TrayTip, MouseClick Left 690 1440, 1
 		Sleep, 1000
 		; Click Target
 		MouseClick, left, 690, 1440
@@ -71,7 +70,6 @@ Loop{
 	{
 		; Click guard
 		MouseClick, left, 700, 1980
-		TrayTip, MouseClick Left 700 1980, 1
 		Sleep, 1000
 	}
 
@@ -84,7 +82,7 @@ Loop{
 	Sleep, 10000
 
 	; Loot Phase
-
+	TrayTip, Loot phase, Starting loot phase, 10
 	; Max number of clicks should be 10 - item, gil, a level up/job level up for each character
 	Loop, 10
 	{
@@ -93,6 +91,7 @@ Loop{
 		Sleep, 2000
 	}
 
+	TrayTip, Restarting loop, Restarting loop: %LoopCount%, 15
 	Sleep, 15000
 	LoopCount = LoopCount + 1
 }
